@@ -8,9 +8,23 @@ Authentication en GitHub
 email address: mc.hectorf@gmail.com
 
 
+se siguen las instrucciones de la documentacion de github:
+
+Error: Permission denied (publickey)
+https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey
+
+Generating a new SSH key and adding it to the ssh-agent
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Adding a new SSH key to your GitHub account
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 
-ssh-keygen -t ed25519 -C "mc.hectorf@gmail.com"
+$ ssh-keygen -t ed25519 -C "mc.hectorf@gmail.com"
 
 
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA2ieBD1DlAGhjjlidgxK3lyYjxssoCEDoxv8ITgdunc mc.hectorf@gmail.com
+
+$ ssh -vT git@github.com
+
+$ git clone git@github.com:hfelixv/endpoints.git
