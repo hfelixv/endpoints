@@ -1,10 +1,15 @@
 Authentication en GitHub
 ==========================
 
-
+repo:
+https://github.com/hfelixv/endpoints/tree/develop
 
  fatal: Authentication failed for 'https://github.com/hfelixv/endpoints.git/'
 =====================
+
+paso 0.- la laptop tiene que estar DESCONECTADA de la vpn !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 email address: mc.hectorf@gmail.com
 
 
