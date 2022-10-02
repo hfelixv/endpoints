@@ -1,0 +1,16 @@
+Authentication en GitHub
+==========================
+
+
+
+ fatal: Authentication failed for 'https://github.com/hfelixv/endpoints.git/'
+=====================
+email address: mc.hectorf@gmail.com
+
+
+
+
+ssh-keygen -t ed25519 -C "mc.hectorf@gmail.com"
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA2ieBD1DlAGhjjlidgxK3lyYjxssoCEDoxv8ITgdunc mc.hectorf@gmail.com
